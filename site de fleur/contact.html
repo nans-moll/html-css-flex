@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>contact</title>
+</head>
+<body>
+      <!-- barre de menu -->
+      <ul class="menu">
+        <li class="home.html"><a href="index.html">home</a></li>
+          <li class="entreprise.html"><a href="entreprise.html">entreprise</a></li>
+             <li class="realisation.html"><a href="realisation.html">realisation</a></li>
+                 <li class="contact.html"><a href="contact.html">contact</a></li>
+    <div class="searchbar">
+      <form>
+          <input type="text" placeholder="que veut tu mon slime ?">
+          <button type="submit">search</button>
+      </form>
+   </div>
+  </ul>
+  <h1>contactez-nous</h1>
+  <div class="trait1"></div> 
+  <!-- titre -->
+  <form class="formulaire" action="/votre-page-de-traitement" method="post">
+    <label for="civilite"><h2>Civilité :</h2></label>
+    <select id="civilite" name="civilite">
+      <option value="Monsieur">Monsieur</option>
+      <option value="Madame">Madame</option>
+      <option value="Mademoiselle">Mademoiselle</option>
+      
+    </select><br><br>
+  
+    <label for="nom"><h2>Nom :</h2></label>
+    <input type="text" id="nom" name="nom">
+  
+    <label for="prenom"><h2>Prénom :</h2></label>
+    <input type="text" id="prenom" name="prenom">
+  
+    <label for="adresse"><h2>Adresse electronique :</h2></label>
+    <input  type="text" id="adresse" name="adresse">
+    <label for="politique_confidentialite">J'accepte la politique de confidentialité</label>
+    <input type="checkbox" id="politique_confidentialite" name="politique_confidentialite">
+    <input type="submit" value="Valider">
+  </form>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

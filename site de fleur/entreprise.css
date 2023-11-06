@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.menu {
+    display: flex;
+    padding: 0;
+    background-color: palevioletred;
+    justify-content:space-around;
+}
+.menu li{
+    list-style-type: none;
+
+}
+    .menu a {
+     display: block;  
+     min-width: 120px;
+     margin: 0.5rem;
+     padding: 0.4rem 0;
+     text-align: center;
+     background-color: firebrick;
+     color: #fff;
+     text-decoration: none;
+     border: 1px solid palevioletred;
+     border-radius: 4px;
+      } 
+     .menu a:hover {
+        background-color: yellow;
+        color: black;
+        border-color: #fc5d5d;
+     }
+     .searchbar{
+        margin-top: 10px;
+      }
+body{
+    background: url(image-fleurs/fond-fleur.jpg) center/cover;
+    min-height:  100vh;
+}
+.titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50pt;
+}
+.trait1{
+    height: 7px;
+        width: 50%;
+        margin: -5px auto;
+        background-color: #fc5d5d ;
+}
+
+.conteiner{
+background-color: white;
+}
+.fleuriste1{
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid pink;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 30px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+.fleuriste2{
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid pink;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 30px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+.fleuriste3{
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid pink;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 30px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+.fleuriste4{
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid pink;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 30px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+.equipe1{
+  height: 200px;
+  border: 5px solid orange;
+  border-radius: 8px;  
+}
+.equipe2{
+    height: 200px;
+    border: 5px solid orange;
+    border-radius: 8px;
+}
+.equipe3{
+    height: 200px;
+    border: 5px solid orange;
+    border-radius: 8px;
+}
+.equipe4{
+    height: 200px;
+    border: 5px solid orange;
+    border-radius: 8px;
+}

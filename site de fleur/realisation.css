@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* barre de menu */
+.menu {
+    display: flex;
+    padding: 0;
+    background-color: palevioletred;
+    justify-content:space-around;
+}
+.menu li{
+    list-style-type: none;
+
+}
+    .menu a {
+     display: block;  
+     min-width: 120px;
+     margin: 0.5rem;
+     padding: 0.4rem 0;
+     text-align: center;
+     background-color: firebrick;
+     color: #fff;
+     text-decoration: none;
+     border: 1px solid palevioletred;
+     border-radius: 4px;
+      } 
+     .menu a:hover {
+        background-color: yellow;
+        color: black;
+        border-color: #fc5d5d;
+     }
+     .searchbar{
+        margin-top: 10px;
+      }
+      /* fond  */
+      body{
+    background: url(image-fleurs/fond-fleur.jpg) center/cover;
+    min-height:  100vh;
+      } 
+        .titre{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: 'Pacifico', cursive;
+            font-size: 50pt;
+      }
+      .trait1{
+        height: 7px;
+        width: 50%;
+        margin: -5px auto;
+        background-color: #fc5d5d ;
+      }
+      .presentation{
+        background: url(image-fleurs/fond-fleur.jpg) center/cover;
+        min-height:  100v
+        
+      }
+      .image1{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image2{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image3{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image4{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image5{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image6{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image7{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image8{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .image9{
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 20px;
+        background-color: #fff;
+      }

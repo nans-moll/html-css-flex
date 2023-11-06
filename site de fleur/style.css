@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* marge autour des menus */
+.menu {
+    display: flex;
+    padding: 0;
+    background-color: palevioletred;
+    justify-content:space-around;
+}
+.menu li{
+    list-style-type: none;
+
+}
+    .menu a {
+     display: block;  
+     min-width: 120px;
+     margin: 0.5rem;
+     padding: 0.4rem 0;
+     text-align: center;
+     background-color: firebrick;
+     color: #fff;
+     text-decoration: none;
+     border: 1px solid palevioletred;
+     border-radius: 4px;
+      } 
+     .menu a:hover {
+        background-color: yellow;
+        color: black;
+        border-color: #fc5d5d;
+     }
+     .searchbar{
+        margin-top: 10px;
+        
+    }
+    form{
+        background: palevioletred;
+        
+
+    }
+    
+     .titre {
+      display: flex; 
+      flex-direction: row;
+      justify-content: center;
+      font-family: 'Pacifico', cursive;
+      font-size: 30pt;
+     } 
+    body{
+        background-color: pink;
+    }
+     .description{
+        color:#fff
+    }
+    .premiertrait{
+        height: 7px;
+        width: 50%;
+        margin: -5px auto;
+        background-color: #fc5d5d ;
+    }
+    /* premiere partie des images */
+    .image-fleurs{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 5%;
+    
+    }
+    .image1{
+        border: 2px solid white;
+    }
+    .image2{
+        border: 2px solid white ;
+    }
+    .image3{
+        border: 2px solid white ;
+    }
+   .image4{
+        border: 2px solid white
+     }
+    
+    /* differentes flexbox */
+    .conteiner{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        padding: 5%;
+    }
+    .souligne{
+        text-decoration: underline;
+        color: black;
+    }
+    .souligne2{
+        text-decoration: underline;
+        color: black;
+    }
+    .souligne3{
+        text-decoration: underline;
+        color: black;
+    }
+    
+    .item1{
+        background-color: white;
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 30px;
+    }
+    .item2{
+        background-color: white;
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 30px;
+    }
+    .item3{
+        background-color: white;
+        border: solid #fc5d5d;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 30px;
+    }
+    .secondportrait{
+        height: 7px;
+        width: 50%;
+        margin: -5px auto;
+        background-color: #fc5d5d ;
+     }
+     
+   .troisiemetrait{
+    height: 7px;
+        width: 50%;
+        margin: -5px auto;
+        background-color: #fc5d5d ;
+
+   }
+   /* bordure fleur 2eme partie */
+   .image-fleurs2{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 5%;
+   } 
+   
+    .image5{
+        border: 2px solid white ;
+    }
+    .image6{
+        border: 2px solid white ;
+    }
+    .image7{
+        border: 2px solid white;
+    }
+    .image8{
+        border: 2px solid white ;
+    }
+    .image9{
+        border: 2px solid white;
+         }
+    .margefin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    background-color: palevioletred;
+
+    }
